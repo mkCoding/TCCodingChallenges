@@ -33,7 +33,7 @@ Show error text if either field is empty when clicking Login.
 
 
 @Composable
-fun TestScreen3(){
+fun CodingChallengeScreen3(){
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -97,8 +97,8 @@ fun shouldShowErrorMessage(
 
 @Preview(showBackground = true)
 @Composable
-fun TestScreen3Preview(){
-    TestScreen3()
+fun CodingChallengeScreen3Preview(){
+    CodingChallengeScreen3()
 }
 
 

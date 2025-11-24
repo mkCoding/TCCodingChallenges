@@ -28,7 +28,7 @@ Add a Button at the bottom that prints “Clicked” in Logcat.
  */
 
 @Composable
-fun TestScreen(){
+fun CodingChallengeScreen1(){
     Column(
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -58,6 +58,6 @@ fun TestScreen(){
 
 @Preview(showBackground = true)
 @Composable
-fun TestScreenPreview(){
-  TestScreen()
+fun CodingChallengeScreen1Preview(){
+  CodingChallengeScreen1()
 }

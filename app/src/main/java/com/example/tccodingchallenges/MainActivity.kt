@@ -8,7 +8,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.tccodingchallenges.screens.TestScreen3
+import com.example.tccodingchallenges.screens.CodingChallengeScreen3
 import com.example.tccodingchallenges.ui.theme.TCCodingChallengesTheme
 
 class MainActivity : ComponentActivity() {
@@ -17,7 +17,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             TCCodingChallengesTheme {
-                TestScreen3()
+                CodingChallengeScreen3()
             }
         }
     }

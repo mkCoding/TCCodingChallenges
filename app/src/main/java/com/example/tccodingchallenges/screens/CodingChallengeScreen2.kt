@@ -4,8 +4,6 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -28,7 +26,7 @@ State must persist during recomposition using remember.
 
  */
 @Composable
-fun TestScreen2(){
+fun CodingChallengeScreen2(){
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
@@ -51,29 +49,8 @@ fun TestScreen2(){
 }
 
 
-@Composable
-fun Test(){
-    Column(
-        modifier = Modifier.verticalScroll(rememberScrollState())
-    ){
-        var count by remember { mutableStateOf(0) }
-
-        // Text
-        Text("Count: $count")
-
-        // Button
-        Button(onClick = {
-            count++
-        }) {
-            Text("Click Me!")
-        }
-
-    }
-}
-
-
 @Preview(showBackground = true)
 @Composable
-fun TestScreen2Preview(){
-    TestScreen2()
+fun CodingChallengeScreen2Preview(){
+    CodingChallengeScreen2()
 }
